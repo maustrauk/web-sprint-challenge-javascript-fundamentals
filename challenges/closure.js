@@ -18,6 +18,7 @@ myFunction();
 
 // Explanation: 
 
+//Because "nested" function have been called in the same scope where variable "internal" had initialized.
 
 /* Task 2: Counter */
 
