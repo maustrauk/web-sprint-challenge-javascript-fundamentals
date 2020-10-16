@@ -32,4 +32,4 @@ function summation (parameter) {
   return result;
 }
 
-console.log(summation(4));
+console.log("Summation = ",summation(4));
