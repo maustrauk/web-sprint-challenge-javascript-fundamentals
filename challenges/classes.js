@@ -22,8 +22,9 @@ const myCuboid = new myCuboidMaker(4, 5, 5);
 
 class CubeMaker extends myCuboidMaker {
     constructor(side) {
-        super(side, side, side);
+        super(side, side, side);//For cube
     }
+    // Methods are same for cube, because cube is cuboid with length = width = height = side.
 }
 
 const myCube = new CubeMaker(5);

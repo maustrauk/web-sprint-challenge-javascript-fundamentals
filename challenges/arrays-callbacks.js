@@ -47,7 +47,7 @@ The zoos need to know their total animal population across the United States. Fi
 
 */
 let populationTotal = zooAnimals.reduce(((accumulator,currentValue) => accumulator + currentValue.population),0);
-console.log(populationTotal);
+console.log("Total population = ",populationTotal);
 
 
 // ==== Callbacks ====  

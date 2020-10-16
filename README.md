@@ -27,13 +27,37 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+Answer:
+
+The forEach() method executes a provided function once for each array element. The map() method creates a new array populated with the results of calling a provided function on every element in the calling array. 
+
+
 2. Explain the difference between a callback and a higher order function.
+
+Answer:
+
+A higher-order function is a function that takes another function(s) as an argument(s) and/or returns a function to its callers. A callback function is a function that is passed to another function with the expectation that the other function will call it.
 
 3. What is closure?
 
+Answer:
+
+A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function’s scope from an inner function.
+
 4. Describe the four rules of the 'this' keyword.
 
+Answer:
+
+- Whenever a function is contained in the global scope, the value of this inside of that function will be the window object.
+- Whenever a function is called by a preceding dot, the object before that dot is this.
+- Whenever a constructor function is used, this refers to the specific instance of the object that is created and returned by the constructor function.
+- Whenever JavaScript’s call or apply method is used, this is explicitly defined.
+
 5. Why do we need super() in an extended class?
+
+Answer:
+
+It is used to call the constructor of the parent class and to access the parent's properties and methods.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
@@ -83,6 +107,6 @@ There are a few stretch problems found throughout the files, don't work on them 
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [*] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 
 
